@@ -3,8 +3,8 @@ import java.net.*;
 
 public class ContentClient {
     public static void main(String[] args) {
-        final String SERVER_IP = "192.168.0.181"; // Replace with your server's IP address
-        final int SERVER_PORT = 8080; // Use the same port as the server
+        final String SERVER_IP = "192.168.0.181";
+        final int SERVER_PORT = 8080;
 
         try {
             Socket socket = new Socket(SERVER_IP, SERVER_PORT);
